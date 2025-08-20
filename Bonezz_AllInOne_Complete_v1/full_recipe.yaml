@@ -1,0 +1,12 @@
+$schema: "https://raw.githubusercontent.com/tabarra/txAdmin-recipe-schemas/master/fxmanifest/recipe.yaml"
+name: "Bonezz All-In-One Complete"
+version: "1.0.0"
+author: "mizterbonezzmusic"
+description: "Installs Bonezz addons (turf, dealers, UC blips, npc cuff, Rx, corrupt cops)."
+server: "Bonezz Bangerz"
+tasks:
+  - action: download_github
+    src: "mizterbonezzmusic/BonezzBangerz_AllInOne_Complete"  # <-- set your repo name
+    ref: "main"
+    subpath: "resources/[bonezz_addons]"
+    dest: "resources/[bonezz_addons]"

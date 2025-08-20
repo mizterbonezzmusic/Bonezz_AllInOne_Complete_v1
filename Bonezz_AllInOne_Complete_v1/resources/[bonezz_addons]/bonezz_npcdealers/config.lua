@@ -1,0 +1,2 @@
+Config = { Dealers = {} }
+Config.Index = {}
